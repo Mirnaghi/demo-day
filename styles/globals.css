@@ -37,7 +37,11 @@ header,
 header {
   width: 100vw;
   height: 64px;
-  display: sticky;
+  display: flex;
+  position: sticky;
+  padding: 0 60px;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -64,5 +68,3 @@ div.content {
   border-radius: 15px;
   background-color: var(--primary-dark);
 }
-
-

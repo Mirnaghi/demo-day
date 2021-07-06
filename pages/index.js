@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import SideBar from '../containers/SideBar/SideBar'
+import Navbar from '../containers/Navbar/Navbar'
 
 export default function Home() {
   return (
@@ -12,22 +13,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-          
+        <Navbar />
       </header>
 
       <main className="main">
 
           <div className="sidebar">
-            <SideBar /> 
+            <SideBar />
           </div>
           <div className="content">
-            
+
           </div>
 
       </main>
 
       <footer className={styles.footer}>
-        
+
       </footer>
     </div>
   )

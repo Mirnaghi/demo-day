@@ -1,5 +1,5 @@
 import styles from './SideBar.module.css';
-import SideBarBtn from '../../components/SidebarBtn/SidebarBtn';
+import SideBarBtn from '../../components/SideBarBtn/SideBarBtn';
 
 const SideBar = (props) => {
     return (
